@@ -1,0 +1,14 @@
+{
+    "PluginName": {
+        "functions": {
+            "math_add": {
+                "parameters": [
+                    {"name": "first_number", "type": "int"},
+                    {"name": "second_number", "type": "int"}
+                ],
+                "return": "int",
+                "docstring": "Adds second_number to first_number ( first_number + second_number )"
+            }
+        }
+    }
+}
