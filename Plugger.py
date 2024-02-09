@@ -100,6 +100,6 @@ if __name__ == "__main__":
     
     c.log.LogInfo(f"listed plugins: [\"{c.plugins}\"]")
     
-    print(c.dom_runner("dom_math", "math_add", first_number=123, second_number=345,asdd="2"))
+    c.log.LogInfo(c.dom_runner("dom_math", "math_add", first_number=123, second_number=345,asdd="2"))
     
     c.import_module("MyModule")

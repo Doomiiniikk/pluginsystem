@@ -1,0 +1,9 @@
+Plugin System : learning
+Plugger.py : main file
+    plugins/modules known as 'doms'
+    plugins must have 'Dom()' class defined as of now
+domlogger.py : simpe logging to make information clearer
+modules/
+    here are all modules housed
+
+Remember, it's a learning project
